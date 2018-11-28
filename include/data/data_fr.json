@@ -1,0 +1,375 @@
+{
+  "cv": {
+    "education": {
+      "title":"Education",
+      "data": [
+        {
+          "duration":"2016-2019",
+          "name":"EISTI (Ecole Internationale des Sciences et du Traitement de l'Information)",
+          "location":"Pau",
+          "attributes":"Cycle Ingénieur, Génie Informatique",
+          "link":"https://eisti.fr/"
+        },
+        {
+          "duration":"2014-2016",
+          "name":"EISTI",
+          "location":"Pau",
+          "attributes":"Cycle préparatoire MPI (Mathématiques/Physique/Informatique)",
+          "link":"https://eisti.fr/"
+        },
+        {
+          "duration":"2013-2014",
+          "name":"Lycée Michelet",
+          "location":"Pau",
+          "attributes":"Baccalauréat Scientifique, spécialité mathématiques : Mention Bien",
+          "link":"http://citescolaire-lannemezan.entmip.fr/lycee-michelet/"
+        }
+      ]
+    },
+    "experience": {
+      "title":"Expérience professionnelle et projets",
+      "data": [
+        {
+          "date":"2018-2019",
+          "name":"Alternance Ingénieur-Développeur JAVA",
+          "duration":"1 an",
+          "company":"TOTAL SA",
+          "location":"TOTAL Centre Scientifique et Technique Jean Féger",
+          "city":"Pau",
+          "country":"France",
+          "description": [
+            "Développeur JAVA pour le service AVO sur le le logiciel de géologie SISMAGE",
+            "Au service du \"métier\" pour le développement de nouveaux outils d'analyse sismique et d'aide au développement de POC pour les modèles géophysiques"
+          ],
+          "technologies": [
+            "Java"
+          ],
+          "img":"sismage.png"
+        },
+        {
+          "date":"2018",
+          "name":"Stage Data Science Exploration-Production",
+          "duration":"5 mois",
+          "company":"TOTAL SA",
+          "location":"TOTAL Centre Scientifique et Technique Jean Féger",
+          "city":"Pau",
+          "country":"France",
+          "description": [
+            "Création d’un moteur d’apprentissage corrélant des données (near)real-time (PI Historian) avec des données transactionnelles d’évènements machines (SAP) afin de détecter des signaux faibles annonciateurs de dysfonctionnements potentiels",
+            "Modélisation DataScience/Benchmarking d’algorithmes de Machine learning (Python)/Optimisation combinatoire/Statistiques avancées/Metrics & Scoring/Aide à la prise de décision via DataVisualization",
+          ],
+          "technologies": [
+            "Python (Pandas, Scikit-Learn, Matplotlib, Seaborn)",
+            "PHP",
+            "Javascript (D3.js, plotly.js)",
+            "PostGreSQL"
+          ],
+          "img":"datascience.png"
+        },
+        {
+          "date":"2017",
+          "name":"Stage Développement Web",
+          "duration":"3 mois",
+          "company":"Novosibirsk State University",
+          "location":"Akademgorodok",
+          "city":"Novosibirsk",
+          "country":"Russie",
+          "description": [
+            "Mise à jour et modernisation d’un site web",
+            "Implémentation d’outils d’analyses linguistiques pour le département francophone de recherche",
+            "Mise en production",
+            "Lien : http://dictaverf.nsu.ru/"
+          ],
+          "technologies": [
+            "PHP",
+            "Javascript (JQuery, D3.js, plotly.js, jQCloud)",
+            "PostGreSQL"
+          ],
+          "img":"dictaverf.png"
+        },
+        {
+          "date":"2017-2018",
+          "name":"Optimisation du problème à N-Corps",
+          "duration":"2 mois",
+          "company":"EISTI",
+          "location":"Campus de Pau",
+          "city":"Pau",
+          "country":"France",
+          "description": [
+            "Parallélisation de l’algorithme naı̈f du problème à N-Corps",
+            "Calcul sur le supercalculateur de Gallice CESGA",
+            "Echange des données calculées en temps réel via socket/websocket",
+            "Affichage en temps réel des positions des particules en Javascript"
+          ],
+          "technologies": [
+            "C++ (OpenMP, MPI, Socket)",
+            "Python (WebSocket)",
+            "Javascript (plotly.js)"
+          ],
+          "img":"nbody.gif"
+        },
+        {
+          "date":"2017",
+          "name":"Site web pour l'association Esprit Sport",
+          "duration":"3 mois",
+          "company":"EISTI",
+          "location":"Campus de Pau",
+          "city":"Pau",
+          "country":"France",
+          "description": [
+            "Gestion d'une équipe de 30 étudiants-développeurs en AGILE",
+            "Création du cahier des charges",
+            "Définition des user stories et des sprints",
+            "Dialogue et échange avec le client à chaque fin de sprint"
+          ],
+          "technologies": [
+            "J2EE (Spring, Hibernate)",
+            "Javascript (Angular 4)",
+            "HTML5",
+            "CSS3 (Bootstrap)",
+            "MySQL"
+          ],
+          "img":"spring.png"
+        },
+        {
+          "date":"2016",
+          "name":"Site web pour la gestion de généalogie",
+          "duration":"4 mois",
+          "company":"EISTI",
+          "location":"Campus de Pau",
+          "city":"Pau",
+          "country":"France",
+          "description": [
+            "Suivi du cahier des charges",
+            "Développement complet de l'application",
+            "Contrainte : utiliser Python en back-end",
+            "Utilisation du modèle MVC"
+          ],
+          "technologies": [
+            "Python (Django)",
+            "Javascript (Vanilla, dTree.js)",
+            "HTML5",
+            "CSS3 (Semantic UI)",
+            "SQLite"
+          ],
+          "img":"django.png"
+        }
+      ]
+    },
+    "skills": {
+      "title":"Compétences",
+      "data": {
+        "languages": {
+          "name":"Langages",
+          "data": [
+            {
+              "language":"C",
+              "mark":6,
+              "desc":"C est un langage de programmation impératif généraliste. Inventé au début des années 1970 pour réécrire UNIX, C est devenu un des langages les plus utilisés. De nombreux langages plus modernes comme C++, C#, Java et PHP ont une syntaxe similaire au C et reprennent en partie sa logique.
+              Ses caractéristiques de langage bas niveau en font un langage privilégié quand on cherche à maîtriser les ressources matérielles utilisées, le langage machine et les données binaires générées par les compilateurs étant relativement prévisibles.
+              Ce langage est donc extrêmement utilisé dans des domaines comme la programmation embarquée sur microcontrôleurs, les calculs intensifs, l'écriture de systèmes d'exploitation et les modules où la rapidité de traitement est importante."
+            },
+            {
+              "language":"C++",
+              "mark":7,
+              "desc":"C++ est un langage de programmation compilé permettant la programmation sous de multiples paradigmes (comme la programmation procédurale, orientée objet ou générique).
+              Ses bonnes performances, et sa compatibilité avec le C en font un des langages de programmation les plus utilisés dans les applications où la performance est critique.
+              Ce langage permet, entre autre, de gérer la mémoire au plus proche de la machine grâce à une syntaxe de plus haut niveau que le C."
+            },
+            {
+              "language":"Java",
+              "mark":8,
+              "desc":"Java est un langage de programmation orienté objet créé par James Gosling et Patrick Naughton, employés de Sun Microsystems.
+              La particularité et l'objectif central de Java est que les logiciels écrits dans ce langage doivent être très facilement portables sur plusieurs systèmes d’exploitation tels que Unix, Windows, Mac OS ou GNU/Linux, avec peu ou pas de modifications, mais qui ont l'inconvénient d'être plus lourd à l'exécution à cause de la JVM.
+              Il est le langage le plus utilisé à l'heure actuelle dans l'industrie du développement logiciel, et j'ai pu l'utiliser au travers de <a href='https://spring.io/'>Spring</a> ou bien encore créer des ORM rapidement grâce à <a href='http://hibernate.org/'>Hibernate</a>."
+            },
+            {
+              "language":"Scala",
+              "mark":7,
+              "desc":"Scala est un langage de programmation multi-paradigme conçu pour exprimer les modèles de programmation courants dans une forme concise et élégante.
+              Scala intègre les paradigmes de programmation orientée objet et de programmation fonctionnelle, avec un typage statique.
+              Il est prévu pour être compilé en bytecode Java (exécutable sur la JVM), ou .Net, dans un cas d'utilisation sur JVM, il est possible d'utiliser des bibliothèques exclusivement écrites en JAVA."
+            },
+            {
+              "language":"SQL",
+              "mark":6,
+              "desc":"SQL (Structured Query Language) est un langage normalisé servant à exploiter des bases de données relationnelles.
+              La partie langage de manipulation des données de SQL permet de rechercher, d'ajouter, de modifier ou de supprimer des données dans les bases de données relationnelles.
+              Outre le langage de manipulation des données, la partie langage de définition des données permet de créer et de modifier l'organisation des données dans la base de données, la partie langage de contrôle de transaction permet de commencer et de terminer des transactions, et la partie langage de contrôle des données permet d'autoriser ou d'interdire l'accès à certaines données à certaines personnes."
+            },
+            {
+              "language":"Python",
+              "mark":9,
+              "desc":"Python est un langage de programmation objet interprété, multi-paradigme et multiplateformes.
+              Il favorise la programmation impérative structurée, fonctionnelle et orientée objet. Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire par ramasse-miettes et d'un système de gestion d'exceptions.
+              Un de mes langages favoris, j'ai pu exploiter la puissance de ses bibliothèques destinées au traitement de la donnée (<a href='https://pandas.pydata.org/'>Pandas</a>, <a href='http://www.numpy.org/'>NumPy</a>), à l'intelligence artificielle (<a href='https://scikit-learn.org/stable/'>Scikit-Learn</a>, <a href='https://www.tensorflow.org/'>TensorFlow</a>, <a href='https://keras.io/'>Keras</a>, <a href='https://facebook.github.io/prophet/'>Prophet</a>) mais également à ses cas d'utilisations en tant que langage web (<a href='https://www.djangoproject.com/'>Django</a>, <a href='http://flask.pocoo.org/'>Flask</a>)."
+            },
+            {
+              "language":"PHP",
+              "mark":10,
+              "desc":"PHP (Hypertext PreProcessor) est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet.
+              Sans contestation, mon langage préféré, dès que je dois réaliser une application web, je n'hésite pas à utiliser PHP pour sa simplicité de mise en place et sa facilité d'écriture.
+              J'ai pu utiliser des framework comme <a href='https://symfony.com/'>Symfony</a> ou <a href='https://laravel.com/'>Laravel</a> ou bien mêler facilement mon PHP Vanilla (comme celui du site que vous êtes en train de parcourir) à l'utilisation d'un serveur Apache ou Nginx sans demander des configurations complexes."
+            },
+            {
+              "language":"HTML",
+              "mark":10,
+              "desc":"L’HyperText Markup Language, généralement abrégé HTML, est le langage de balisage conçu pour représenter les pages web. C’est un langage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement et logiquement et de mettre en forme le contenu des pages, d’inclure des ressources multimédias dont des images, des formulaires de saisie et des programmes informatiques.
+              Il est la base de la programmation web, très simple à apprendre.
+              Les subtilités de ce langage interviennent dans le référencement et l'utilisation des bonnes balises au bon endroit, au bon moment pour permettre un référencement optimisé."
+            },
+            {
+              "language":"CSS",
+              "mark":8,
+              "desc":"Les feuilles de style en cascade, généralement appelées CSS de l'anglais \"Cascading Style Sheets\", forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C).
+              L'enjeu majeur de ce langage consiste à la séparation entre la structure et la présentation d'une page web, ce qui raccourci la taille des pages écrites.
+              J'utilise le CSS sous la forme de framework pour améliorer le côté responsive de mes applications, notamment via <a href='https://getbootstrap.com/'>Bootstrap</a>, <a href='https://semantic-ui.com/'>SemanticUI</a> ou encore <a href='https://materializecss.com/'>Materialize</a>"
+            },
+            {
+              "language":"Javascript",
+              "mark":9,
+              "desc":"JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs avec, par exemple, l'utilisation de Node.js. C'est un langage orienté objet à prototype.
+              Le langage supporte le paradigme objet, impératif et fonctionnel. JavaScript est le langage possédant le plus large écosystème grâce à son gestionnaire de dépendances npm, avec plus de 500 000 paquets.
+              Dans la plupart de mes applications, j'ai utilisé du Javascript Vanilla ou bien <a href='https://jquery.com/'>JQuery</a>, maintenant je me focalise plus sur <a href='https://angular.io/'>Angular</a> ou encore <a href='https://reactjs.org/'>React</a>."
+            }
+          ]
+        },
+        "frameworks": {
+          "name":"Frameworks",
+          "data": {
+            "CSS": [
+              {
+                "framework":"Bootstrap",
+                "mark":9
+              },
+              {
+                "framework":"Semantic UI",
+                "mark":9
+              },
+              {
+                "framework":"Materialize",
+                "mark":7
+              }
+            ],
+            "Javascript": [
+              {
+                "framework":"Angular",
+                "mark":7
+              },
+              {
+                "framework":"ReactJS",
+                "mark":9
+              },
+              {
+                "framework":"Ionic",
+                "mark":7
+              },
+              {
+                "framework":"JQuery",
+                "mark":7
+              }
+            ],
+            "Java / J2EE": [
+              {
+                "framework":"Spring",
+                "mark":5
+              },
+              {
+                "framework":"Hibernate",
+                "mark":6
+              }
+            ],
+            "Python": [
+              {
+                "framework":"Django",
+                "mark":8
+              },
+              {
+                "framework":"Flask",
+                "mark":6
+              }
+            ],
+            "PHP": [
+              {
+                "framework":"Symfony",
+                "mark":7
+              },
+              {
+                "framework":"Laravel",
+                "mark":5
+              }
+            ]
+          }
+        },
+        "methods": {
+          "name":"Méthodes et outils de gestion",
+          "data": [
+            "Merise",
+            "UML",
+            "AGILE",
+            "Design Patterns",
+            "CRISP-DM (Workflow Datascience)",
+            "JIRA",
+            "CONFLUENCE"
+          ]
+        },
+        "databases": {
+          "name":"Système de gestion de bases de données",
+          "data": [
+            {
+              "name":"MYSQL",
+              "desc":"MySQL est un système de gestion de bases de données relationnelles. Il fait partie des logiciels de gestion de bases de données les plus utilisés au monde.
+              MySQL est un serveur de bases de données relationnelles SQL développé dans un souci de performances élevées en lecture, ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées.
+              Il est multi-thread et multi-utilisateur. Il est également apprécié pour la richesse de ses connecteurs vers de nombreux langages."
+            },
+            {
+              "name":"SQLite",
+              "desc":"SQLite est une bibliothèque écrite en langage C qui propose un moteur de base de données relationnelle accessible par le langage SQL.
+              Contrairement aux serveurs de bases de données traditionnels, comme MySQL ou PostgreSQL, sa particularité est de ne pas reproduire le schéma habituel client-serveur mais d'être directement intégrée aux programmes.
+              L'intégralité de la base de données est stockée dans un fichier indépendant de la plateforme. Il est souvent utilisé en phase de développement."
+            },
+            {
+              "name":"PostGreSQL",
+              "desc":"PostgreSQL est un système de gestion de base de données relationnelle et objet.
+              Son avantage principal est qu'il peut stocker des types dits \"non usuels\", en permettant à l'utilisateur de créer ses propres types.
+              Il est également reconnu pour sa stabilité mais également pour ses possibilités de programmation étendues via PL/pgSQL."
+            },
+            {
+              "name":"MongoDB",
+              "desc":"MongoDB est un système de gestion de base de données orientée documents, scalable autant verticalement qu'horizontalement.
+              Il est l'un des pilliers du NoSQL et actuellement en vogue auprès de la communauté du développement web.
+              MongoDB permet d'assurer la haute disponibilité de la donnée, avec un système usant de ReplicaSet permettant de copier la donnée à plusieurs endroits afin de s'assure un backup en cas de problème majeur."
+            },
+            {
+              "name":"Neo4J",
+              "desc":"Neo4J est un système de gestion de base de données orientée graphe.
+              Sa praticité réside dans la représentation des données en tant que noeuds, possédant ses propres propriétés comme l'ont ferait dans un langage orienté objet, reliés par des arcs pouvant être valués et portant eux-même des propriétés.
+              Cette modélisation permet de se rapprocher très facilement d'un modèle dit \"métier\", ce qui le rend d'autant plus intéressant à la gestion de données changeantes et de schémas évoluant rapidement."
+            }
+          ]
+        },
+        "maths": {
+          "name":"Concepts Mathématiques, Logique et Intelligence Artificielle",
+          "data": [
+            "Data processing (Pandas, NumPy)",
+            "Analyse numérique",
+            "Statistiques avancées",
+            "Optimisation linéaire",
+            "Théorie des graphes",
+            "Machine Learning (Scikit-Learn, Prophet)",
+            "Deep Learning / Réseaux de neurones (TensorFlow, Keras)",
+            "Optimisation déterministe, heuristique, combinatoire"
+          ]
+        },
+        "others": {
+          "name":"Autres compétences",
+          "data": [
+            "OS : Windows, Mac, Linux",
+            "Bureautique : Suite Microsoft, OpenOffice",
+            "Data Visualization : Tableau, PowerBI",
+          ]
+        }
+      }
+    }
+  }
+}

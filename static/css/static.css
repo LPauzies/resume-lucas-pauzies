@@ -1,0 +1,11 @@
+/* Declare Fonts */
+
+@font-face {
+  font-family: helvetica;
+  src: url(../fonts/HelveticaNeueLight.ttf);
+}
+
+html, body {
+  font-family: helvetica;
+  font-size: 16px;
+}

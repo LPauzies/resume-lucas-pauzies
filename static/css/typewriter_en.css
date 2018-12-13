@@ -1,14 +1,19 @@
 
 /* typewriter class */
 .tw {
-    position: relative;
-    width: 20em;
-    border-right: 2px solid rgba(255,255,255,.75);
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);
-    font-family: 'Anonymous Pro', monospace;
+  position: relative;
+  border-right: 2px solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-family: 'Anonymous Pro', monospace;
+}
+.tw-done {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-family: 'Anonymous Pro', monospace;
 }
 /* Animation */
 .anim-typewriter1{
@@ -49,7 +54,7 @@
              blinkTextCursor 500ms steps(50) infinite normal;
 }
 .anim-typewriter10{
-  animation: typewriter10 0.1s steps(1) 32s 1 normal both,
+  animation: typewriter10 0.1s steps(1) 32.5s 1 normal both,
              blinkTextCursor 500ms steps(50) infinite normal;
 }
 @keyframes typewriter1{

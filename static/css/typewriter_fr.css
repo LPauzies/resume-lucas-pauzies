@@ -1,0 +1,103 @@
+
+/* typewriter class */
+.tw {
+  position: relative;
+  border-right: 2px solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-family: 'Anonymous Pro', monospace;
+}
+.tw-done {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  font-family: 'Anonymous Pro', monospace;
+}
+/* Animation */
+.anim-typewriter1{
+  /* durée de l'animation, nombre de fois où il y a un caractère, durée avant le trigger, nombre de répétition */
+  animation: typewriter1 2.5s steps(25) 1s 1 normal both,
+             blinkTextCursor 500ms steps(25) infinite normal;
+}
+.anim-typewriter2{
+  animation: typewriter2 4s steps(40) 3.5s 1 normal both,
+             blinkTextCursor 500ms steps(40) infinite normal;
+}
+.anim-typewriter3{
+  animation: typewriter3 3.8s steps(38) 7.5s 1 normal both,
+             blinkTextCursor 500ms steps(38) infinite normal;
+}
+.anim-typewriter4{
+  animation: typewriter4 4.4s steps(44) 11.3s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+.anim-typewriter5{
+  animation: typewriter5 4.7s steps(47) 15.7s 1 normal both,
+             blinkTextCursor 500ms steps(47) infinite normal;
+}
+.anim-typewriter6{
+  animation: typewriter6 4.7s steps(47) 20.4s 1 normal both,
+             blinkTextCursor 500ms steps(47) infinite normal;
+}
+.anim-typewriter7{
+  animation: typewriter7 4.8s steps(48) 24.9s 1 normal both,
+             blinkTextCursor 500ms steps(48) infinite normal;
+}
+.anim-typewriter8{
+  animation: typewriter8 1.7s steps(17) 29.7s 1 normal both,
+             blinkTextCursor 500ms steps(17) infinite normal;
+}
+.anim-typewriter9{
+  animation: typewriter9 0.1s steps(1) 32s 1 normal both,
+             blinkTextCursor 500ms steps(50) infinite normal;
+}
+.anim-typewriter10{
+  animation: typewriter10 0.1s steps(1) 33s 1 normal both,
+             blinkTextCursor 500ms steps(50) infinite normal;
+}
+@keyframes typewriter1{
+  from{width: 0;}
+  to{width: 13.45em;}
+}
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 21.45em;}
+}
+@keyframes typewriter3{
+  from{width: 0;}
+  to{width: 20.35em;}
+}
+@keyframes typewriter4{
+  from{width: 0;}
+  to{width: 23.55em;}
+}
+@keyframes typewriter5{
+  from{width: 0;}
+  to{width: 25.15em;}
+}
+@keyframes typewriter6{
+  from{width: 0;}
+  to{width: 25.15em;}
+}
+@keyframes typewriter7{
+  from{width: 0;}
+  to{width: 25.70em;}
+}
+@keyframes typewriter8{
+  from{width: 0;}
+  to{width: 9.1em;}
+}
+@keyframes typewriter9{
+  from{width: 0;}
+  to{width: 0.7em;}
+}
+@keyframes typewriter10{
+  from{width: 0;}
+  to{width: 0.7em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}

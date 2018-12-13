@@ -22,5 +22,13 @@
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
     <link type="text/css" rel="stylesheet" href="../static/css/animate.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../static/css/static.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../static/css/progress.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../static/css/typewriter_<?php echo $lang; ?>.css" media="screen,projection"/>
 
   </head>
+
+  <script>
+      if (window.history.replaceState) {
+          window.history.replaceState( null, null, window.location.href );
+      }
+  </script>

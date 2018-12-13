@@ -1,11 +1,252 @@
+/* Graphic chart
+ *
+ * #2b2d27 : background-color 1/2 marron
+ * #F5F5DC : background-color 2/2 beige
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
 /* Declare Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 @font-face {
   font-family: helvetica;
   src: url(../fonts/HelveticaNeueLight.ttf);
 }
 
-html, body {
+html {
   font-family: helvetica;
+  background-color: #2b2d27;
   font-size: 16px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  height: 15vh;
+}
+
+a {
+  font-family: helvetica;
+}
+
+.contained {
+  height: 100%;
+}
+
+.it {
+  font-style: italic;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.pt3 {
+  padding-top: 3%;
+}
+
+.logo {
+  max-width: 64px;
+}
+
+.border-right {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #2b2d27;
+}
+
+/*** Components ***/
+
+/* Top Component */
+#top {
+  height: 100vh;
+  color: #ffffff;
+  background-color: #2b2d27;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* Text animation */
+
+.keyword {
+  color: #FF006B;
+}
+
+.type {
+  color: #00D6D0;
+}
+
+.string {
+  color: #E8D568;
+}
+
+.args {
+  color: #E59A00;
+}
+
+.brief {
+  font-style: italic;
+}
+
+.button-b:link, .button-b:visited {
+  background-color: #2b2d27;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.button-b:hover, .button-b:active {
+  background-color: #ffffff;
+  color: #2b2d27;
+  font-weight: bold;
+}
+
+/* Button fixed */
+.buttonsticked {
+  position: fixed;
+  top: 90vh;
+  right: 5vh;
+  background-color: #2b2d27;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+  transition: 0.5s;
+}
+
+.buttonsticked:hover {
+  background-color: #ffffff;
+  color: #2b2d27;
+}
+
+/* Modal */
+.modal {
+  color: #2b2d27;
+}
+
+button {
+  font-family: helvetica;
+}
+
+.button-modal {
+  background-color: #ffffff;
+  color: #2b2d27;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2b2d27;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button-modal:hover, .button-modal:active {
+  background-color: #2b2d27;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Education Component */
+#education {
+  background-color: #F5F5DC;
+  color: #2b2d27;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.title-card {
+  font-size: 1.25rem;
+}
+
+/* Experiences Component */
+#experiences {
+  background-color: #F5F5DC;
+  color: #2b2d27;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.exp-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.exp-border:after {
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 70%; /* Change this to whatever width you want. */
+  padding-top: 20px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid #2b2d27;
+}
+
+/* Skills Component */
+#skills {
+  background-color: #F5F5DC;
+  color: #2b2d27;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* Methods Component */
+#methods {
+  background-color: #F5F5DC;
+  color: #2b2d27;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/* Particles Component */
+#particles-js {
+  height: 55vh;
+  color: #ffffff;
+  background-image: url(../../media/imgs/components/background_inter_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#bubbles-js {
+  height: 50vh;
+  color: #ffffff;
+  background-image: url(../../media/imgs/components/background_inter_3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#stars-js {
+  height: 70vh;
+  color: #ffffff;
+  background-image: url(../../media/imgs/components/background_inter_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

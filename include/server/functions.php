@@ -27,4 +27,25 @@ function HandleLangURL($language) {
   }
 }
 
+function sendMail($from,$to,$topic,$body,$passage_ligne) {
+
+  $boundary = "-----=".md5(rand());
+
+  //Header
+  $header = "From: \"Cair0n Website\"<".$from.">".$passage_ligne;
+  $header .= "Reply-to: \"Cair0n Website\" <".$from.">".$passage_ligne;
+  $header .= "MIME-Version: 1.0".$passage_ligne;
+  $header .= "Content-Type: multipart/alternative;".$passage_ligne." boundary=\"".$boundary."\"".$passage_ligne;
+
+  $message = $passage_ligne."--".$boundary.$passage_ligne;
+  $message .= "Content-Type: text/plain; charset=\"ISO-8859-1\"".$passage_ligne;
+  $message .= "Content-Transfer-Encoding: 8bit".$passage_ligne;
+  $message .= $passage_ligne.$body.$passage_ligne;
+
+  echo $header;
+  echo $message;
+
+  mail($to,$topic,$message,$header);
+}
+
 ?>

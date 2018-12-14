@@ -8,7 +8,7 @@ if (isset($_POST['email']) && isset($_POST['topic']) && isset($_POST['textarea']
 }
 
 ?>
-<a class="btn-large buttonsticked"><i class="material-icons">arrow_upward</i></a>
+<a id="buttonsticked" onclick="topFunction()" class="btn-large"><i class="material-icons">arrow_upward</i></a>
 
 <div id="top" class="animated fadeIn">
 
@@ -71,6 +71,7 @@ if (isset($_POST['email']) && isset($_POST['topic']) && isset($_POST['textarea']
     </div>
 
   </div>
+
 <!--
   <div class="row center-align">
     <div class="col s4">
@@ -87,68 +88,72 @@ if (isset($_POST['email']) && isset($_POST['topic']) && isset($_POST['textarea']
 
   <div class="container">
     <div class="row">
-      <div class="col s12">
+      <div class="col s1">
+      </div>
+      <div class="col s11">
         <h5 id="1" class="tw anim-typewriter1"><span class="keyword">public class</span> <span class="type">HelloWorld</span> {</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s1">
+      <div class="col s2">
       </div>
-      <div class="col s11">
+      <div class="col s10">
         <h5 id="2" class="tw-done anim-typewriter2"><span class="keyword">public static <i>void</i></span> main(<span class="type">String</span>[] <span class="args">args</span>) {</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s2">
+      <div class="col s3">
       </div>
-      <div class="col s10">
+      <div class="col s9">
         <h5 id="3" class="tw-done anim-typewriter3"><span class="type">Developer</span> developer<span class="keyword"> = new </span><span class="type">Developer</span>();</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s2">
+      <div class="col s3">
       </div>
-      <div class="col s10">
+      <div class="col s9">
         <h5 id="4" class="tw-done anim-typewriter4">developer<span class="keyword">.</span>setName(<span class="string">"Lucas 'Cair0n' Pauzies"</span>);</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s2">
+      <div class="col s3">
       </div>
-      <div class="col s10">
+      <div class="col s9">
         <h5 id="5" class="tw-done anim-typewriter5">developer<span class="keyword">.</span>setStatus(<span class="string">"<?php echo $top['status']; ?>"</span>);</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s2">
+      <div class="col s3">
       </div>
-      <div class="col s10">
+      <div class="col s9">
         <h5 id="6" class="tw-done anim-typewriter6">developer<span class="keyword">.</span>setHobbies(<span class="string">"<?php echo $top['hobbies']; ?>"</span>);</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s2">
+      <div class="col s3">
       </div>
-      <div class="col s10">
+      <div class="col s9">
         <h5 id="7" class="tw-done anim-typewriter7">developer<span class="keyword">.</span>setCurrentJob(<span class="string">"<?php echo $top['job']; ?>"</span>);</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s2">
+      <div class="col s3">
       </div>
-      <div class="col s10">
+      <div class="col s9">
         <h5 id="8" class="tw-done anim-typewriter8">developer<span class="keyword">.</span>code();</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s1">
+      <div class="col s2">
       </div>
       <div class="col s10">
         <h5 id="9" class="tw-done anim-typewriter9">}</h5>
       </div>
     </div>
     <div class="row">
-      <div class="col s12">
+      <div class="col s1">
+      </div>
+      <div class="col s11">
         <h5 id="10" class="tw-done anim-typewriter10">}</h5>
       </div>
     </div>

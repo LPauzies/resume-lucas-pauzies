@@ -126,9 +126,11 @@ a {
 }
 
 /* Button fixed */
-.buttonsticked {
+#buttonsticked {
   position: fixed;
-  top: 90vh;
+  display: none;
+  z-index: 99;
+  bottom: 5vh;
   right: 5vh;
   background-color: #2b2d27;
   color: #ffffff;
@@ -138,7 +140,7 @@ a {
   transition: 0.5s;
 }
 
-.buttonsticked:hover {
+#buttonsticked:hover {
   background-color: #ffffff;
   color: #2b2d27;
 }

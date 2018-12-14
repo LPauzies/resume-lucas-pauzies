@@ -37,3 +37,21 @@ $("#buttonSubmit").click(function() {
     $("#buttonSubmit").submit();
   }
 });
+
+/* Button to top behaviour */
+window.onscroll = function() {
+  scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > screen.height/1.5 || document.documentElement.scrollTop > screen.height/1.5) {
+    document.getElementById("buttonsticked").style.display = "block";
+  } else {
+    document.getElementById("buttonsticked").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

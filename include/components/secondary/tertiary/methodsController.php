@@ -5,7 +5,7 @@ function buildCard($skills,$item) {
 ?>
 
 <div class="row">
-  <div class="col s6 border-right">
+  <div class="col xl6 l6 m6 s12 border-right">
     <?php
       for ($i=0; $i < 1 ; $i++) {
         $stack="<span class='b'>".$skills[$item][$i]['title']."</span>";
@@ -20,10 +20,10 @@ function buildCard($skills,$item) {
         $stack2 .= "</span>";
     ?>
       <div class="row">
-        <div class="col s4">
+        <div class="col xl4 l4 m4 s12">
           <?php echo $stack; ?>
         </div>
-        <div class="col s8">
+        <div class="col xl8 l8 m8 s12">
           <?php echo $stack2; ?>
         </div>
       </div>
@@ -31,7 +31,7 @@ function buildCard($skills,$item) {
       }
     ?>
   </div>
-  <div class="col s6">
+  <div class="col xl6 l6 m6 s12">
     <?php
       for ($i=1; $i < 2 ; $i++) {
         $stack="<span class='b'>".$skills[$item][$i]['title']."</span>";
@@ -46,10 +46,10 @@ function buildCard($skills,$item) {
         $stack2 .= "</span>";
     ?>
       <div class="row">
-        <div class="col s4">
+        <div class="col xl4 l4 m4 s12">
           <?php echo $stack; ?>
         </div>
-        <div class="col s8">
+        <div class="col xl8 l8 m8 s12">
           <?php echo $stack2; ?>
         </div>
       </div>

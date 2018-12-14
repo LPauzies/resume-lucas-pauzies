@@ -4,6 +4,7 @@ $(document).ready(function () {
   displayDevice("education_screen","education_device");
   displayDevice("experiences_screen","experiences_device");
   displayDevice("skills_screen","skills_device");
+  displayDevice("methods_screen","methods_device");
   $('.modal').modal();
   $('textarea#textarea').characterCounter();
 });

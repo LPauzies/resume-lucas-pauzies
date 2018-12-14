@@ -55,3 +55,9 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+function changeLogo(path_img,el) {
+  setTimeout(function () {
+    $("#"+el).attr("src",path_img);
+  }, 200);
+}

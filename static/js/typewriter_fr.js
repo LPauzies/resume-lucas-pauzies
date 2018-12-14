@@ -7,7 +7,6 @@ function removeAnimation(classname, name_animation) {
 
 function addAnimation(id, name_animation) {
   var e = document.getElementById(id);
-  console.log(e);
   e.classList.remove('tw-done');
   e.classList.add('tw');
 }

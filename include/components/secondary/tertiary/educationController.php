@@ -18,7 +18,7 @@ function buildEducationCard($name,$items,$pic) {
       ?>
     </div>
     <div class="col s1">
-      <img class="img-responsive logo" src="<?php echo $pic; ?>" alt="">
+      <a href="https://eisti.fr/"><img class="img-responsive logo" src="<?php echo $pic; ?>" alt=""></a>
     </div>
     <div class="col s2">
     </div>

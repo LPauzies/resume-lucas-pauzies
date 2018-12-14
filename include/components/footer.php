@@ -1,6 +1,26 @@
   <footer>
 
-    <!-- Do Stuff for footer -->
+    <div class="container">
+      <div class="row">
+        <?php echo $footer['additionnal']; ?>
+      </div>
+      <div class="row">
+        <div class="col s4 center-align">
+          <a onmouseover="changeLogo('/media/imgs/components/githublogo-black.png','github')" onmouseout="changeLogo('/media/imgs/components/githublogo.png','github')" class="button-b" target="_blank" href="https://github.com/LPauzies"><img id="github" class="logo-footer" src="/media/imgs/components/githublogo.png"> Github</a>
+        </div>
+        <div class="col s4 center-align">
+          <a onmouseover="changeLogo('/media/imgs/components/logolinkedin-black.png','linkedin')" onmouseout="changeLogo('/media/imgs/components/logolinkedin.png','linkedin')" class="button-b" target="_blank" href="https://www.linkedin.com/in/lucas-pauzies/"><img id="linkedin" class="logo-footer" src="/media/imgs/components/logolinkedin.png"> Linkedin</a>
+        </div>
+        <div class="col s4 center-align">
+          <a class="button-b modal-trigger" href="#modalForm"><h7><?php echo $top['contact']; ?></h7></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright container center-align">
+      <div class="row">
+        <?php echo $footer['done']; ?>
+      </div>
+    </div>
 
   </footer>
 

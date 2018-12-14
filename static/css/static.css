@@ -33,10 +33,20 @@ body {
   height: 100%;
 }
 
+/* footer */
 footer {
   margin: 0;
-  padding: 0;
-  height: 15vh;
+  background-color: #2b2d27;
+  color: #F5F5DC;
+}
+
+.logo-footer {
+  max-height: 12px;
+}
+
+.link {
+  color:#F5F5DC;
+  text-decoration: underline;
 }
 
 a {

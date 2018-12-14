@@ -308,4 +308,8 @@ $methods = Array(
   )
 );
 
+$footer = Array(
+  'done' => 'Done by Lucas Pauzies with <a target="_blank" class="link" href="http://www.php.net/">PHP</a>, <a target="_blank" class="link" href="https://jquery.com/">JQuery</a> et <a target="_blank" class="link" href="https://materializecss.com/">MaterializeCSS</a>'
+);
+
 ?>

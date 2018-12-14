@@ -290,7 +290,7 @@ $methods = Array(
       'items' => Array("Traitement de données (Data processing)","Analyse numérique","Statistiques avancées","Optimisation linéaire","Théorie des graphes")
     ),
     Array(
-      'title' => 'Inteliigence artificielle',
+      'title' => 'Intelligence artificielle',
       'items' => Array("Machine Learning (Scikit-Learn, Prophet)","Deep Learning / Réseaux de neurones (TensorFlow, Keras)","Optimisation déterministe, heuristique, combinatoire")
     )
   ),

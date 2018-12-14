@@ -3,6 +3,7 @@ $(document).ready(function () {
   displayDevice("content_screen","content_device");
   displayDevice("education_screen","education_device");
   displayDevice("experiences_screen","experiences_device");
+  displayDevice("skills_screen","skills_device");
   $('.modal').modal();
   $('textarea#textarea').characterCounter();
 });

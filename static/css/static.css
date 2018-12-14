@@ -72,12 +72,10 @@ a {
   max-width: 64px;
 }
 
-@media screen and (max-width:640px) {
-  .border-right {
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: #2b2d27;
-  }
+.border-right {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #2b2d27;
 }
 
 /*** Components ***/

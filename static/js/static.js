@@ -5,6 +5,7 @@ $(document).ready(function () {
   displayDevice("experiences_screen","experiences_device");
   displayDevice("skills_screen","skills_device");
   displayDevice("methods_screen","methods_device");
+  deleteBorders();
   $('.modal').modal();
   $('textarea#textarea').characterCounter();
 });
@@ -49,7 +50,9 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > screen.height/8 || document.documentElement.scrollTop > screen.height/8) {
+  if (isDevice()) {
+    $('buttonsticked').hide();
+  } else if (document.body.scrollTop > screen.height/8 || document.documentElement.scrollTop > screen.height/8) {
     document.getElementById("buttonsticked").style.display = "block";
   } else {
     document.getElementById("buttonsticked").style.display = "none";
@@ -78,5 +81,14 @@ function displayDevice(screen_,device_) {
     //IPAD and less
     $('#'+screen_).hide();
     $('#'+device_).show();
+  }
+}
+
+function deleteBorders() {
+  if (isDevice()) {
+    var els = document.getElementsByClassName('border-right');
+    for (var i = 0; i < els.length; i++) {
+      els[i].classList.remove('border-right');
+    }
   }
 }

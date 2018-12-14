@@ -2,6 +2,7 @@ $(document).ready(function () {
   /* On ready document, do stuff */
   displayDevice("content_screen","content_device");
   displayDevice("education_screen","education_device");
+  displayDevice("experiences_screen","experiences_device");
   $('.modal').modal();
   $('textarea#textarea').characterCounter();
 });

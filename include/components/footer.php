@@ -2,7 +2,6 @@
 
     <div class="container">
       <div class="row">
-        <?php echo $footer['additionnal']; ?>
       </div>
       <div class="row">
         <div class="col s4 center-align">

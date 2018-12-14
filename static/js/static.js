@@ -1,5 +1,6 @@
 $(document).ready(function () {
   /* On ready document, do stuff */
+  displayAnimationScreen();
   $('.modal').modal();
   $('textarea#textarea').characterCounter();
 });
@@ -60,4 +61,17 @@ function changeLogo(path_img,el) {
   setTimeout(function () {
     $("#"+el).attr("src",path_img);
   }, 200);
+}
+
+function displayAnimationScreen() {
+  var width = window.screen.width;
+  var height = window.screen.height;
+  console.log(width);
+  console.log(height);
+  if (width < 800 && height < 1200) {
+    //IPAD and less
+    $('#content_device').show();
+  } else {
+    $('#content_screen').show();
+  }
 }

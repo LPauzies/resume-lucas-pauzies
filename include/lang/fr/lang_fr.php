@@ -14,6 +14,7 @@ $top = Array(
   'status' => 'Jeune ingénieur diplômé',
   'hobbies' => 'Nouvelles technologies',
   'job' => 'A l\'écoute du marché',
+  'desc' => 'Jeune ingénieur diplômé passionné de nouvelles technologies, à l\'écoute du marché',
   'contact' => 'Me contacter',
   'topic' => 'Objet',
   'email' => 'Email',

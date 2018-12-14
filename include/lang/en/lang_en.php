@@ -14,6 +14,7 @@ $top = Array(
   'status' => 'Young graduate engineer',
   'hobbies' => 'New technologies',
   'job' => 'Listening to the market',
+  'desc' => 'Young graduate engineer passionate about new technologies, listening to the market',
   'contact' => 'Contact me',
   'topic' => 'Topic',
   'email' => 'Email',

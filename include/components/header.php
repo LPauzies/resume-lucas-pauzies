@@ -23,7 +23,7 @@
     <link type="text/css" rel="stylesheet" href="../static/css/animate.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../static/css/static.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../static/css/progress.css" media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="../static/css/typewriter_<?php echo $lang; ?>.css" media="screen,projection"/>
+    <link type="text/css" media="screen" rel="stylesheet" href="../static/css/typewriter_<?php echo $lang; ?>.css" media="screen,projection"/>
 
   </head>
 

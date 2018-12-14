@@ -13,13 +13,13 @@ if (isset($_POST['email']) && isset($_POST['topic']) && isset($_POST['textarea']
 <div id="top" class="animated fadeIn">
 
   <div class="row">
-    <div class="col s2 animated fadeInLeft center-align">
+    <div class="col xl2 l2 m4 s12 animated fadeInLeft center-align">
       <a class="button-b" href="<?php echo HandleLangURL("en"); ?>"><h7>EN</h7></a>
       <a class="button-b" href="<?php echo HandleLangURL("fr"); ?>"><h7>FR</h7></a>
     </div>
-    <div class="col s8">
+    <div class="col xl8 l8 m4 s12">
     </div>
-    <div class="col s2 animated fadeInRight center-align">
+    <div class="col xl2 l2 m4 s12 animated fadeInRight center-align">
       <a class="button-b modal-trigger" href="#modalForm"><h7><?php echo $top['contact']; ?></h7></a>
     </div>
 
@@ -72,25 +72,22 @@ if (isset($_POST['email']) && isset($_POST['topic']) && isset($_POST['textarea']
 
   </div>
 
-<!--
-  <div class="row center-align">
-    <div class="col s4">
-    </div>
-    <div class="col s8">
+  <div id="content_device" class="row center-align" hidden="hidden">
+    <div class="container">
       <div class="row">
         <div id="titleTop" class="col s12 center-align animated fadeInRight">
-          <h1>Lucas "Cair0n" Pauzies</h1>
+          <h3>Lucas "Cair0n" Pauzies</h3>
+          <h5 class="it">"<?php echo $top['desc']; ?>"</h5>
         </div>
       </div>
     </div>
   </div>
--->
 
-  <div class="container">
+  <div id="content_screen" class="container" hidden="hidden">
     <div class="row">
-      <div class="col s1">
+      <div class="col xl1 l1 m1 s1">
       </div>
-      <div class="col s11">
+      <div class="col xl11 l11 m11 s11">
         <h5 id="1" class="tw anim-typewriter1"><span class="keyword">public class</span> <span class="type">HelloWorld</span> {</h5>
       </div>
     </div>

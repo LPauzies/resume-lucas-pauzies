@@ -18,43 +18,43 @@
 /* Animation */
 .anim-typewriter1{
   /* durée de l'animation, nombre de fois où il y a un caractère, durée avant le trigger, nombre de répétition */
-  animation: typewriter1 2.5s steps(25) 1s 1 normal both,
+  animation: typewriter1 1.5s steps(25) 1s 1 normal both,
              blinkTextCursor 500ms steps(25) infinite normal;
 }
 .anim-typewriter2{
-  animation: typewriter2 4s steps(40) 3.5s 1 normal both,
+  animation: typewriter2 3s steps(40) 2.5s 1 normal both,
              blinkTextCursor 500ms steps(40) infinite normal;
 }
 .anim-typewriter3{
-  animation: typewriter3 3.8s steps(38) 7.5s 1 normal both,
+  animation: typewriter3 2.8s steps(38) 5.5s 1 normal both,
              blinkTextCursor 500ms steps(38) infinite normal;
 }
 .anim-typewriter4{
-  animation: typewriter4 4.4s steps(44) 11.3s 1 normal both,
+  animation: typewriter4 3.4s steps(44) 8.3s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 .anim-typewriter5{
-  animation: typewriter5 4.7s steps(47) 15.7s 1 normal both,
+  animation: typewriter5 3.7s steps(47) 11.7s 1 normal both,
              blinkTextCursor 500ms steps(47) infinite normal;
 }
 .anim-typewriter6{
-  animation: typewriter6 4.1s steps(41) 20.4s 1 normal both,
+  animation: typewriter6 3.1s steps(41) 15.4s 1 normal both,
              blinkTextCursor 500ms steps(41) infinite normal;
 }
 .anim-typewriter7{
-  animation: typewriter7 5.1s steps(51) 24.5s 1 normal both,
+  animation: typewriter7 3.6s steps(51) 18.5s 1 normal both,
              blinkTextCursor 500ms steps(51) infinite normal;
 }
 .anim-typewriter8{
-  animation: typewriter8 1.7s steps(17) 29.6s 1 normal both,
+  animation: typewriter8 1.2s steps(17) 22.1s 1 normal both,
              blinkTextCursor 500ms steps(17) infinite normal;
 }
 .anim-typewriter9{
-  animation: typewriter9 0.1s steps(1) 31.5s 1 normal both,
+  animation: typewriter9 0.1s steps(1) 23.3s 1 normal both,
              blinkTextCursor 500ms steps(50) infinite normal;
 }
 .anim-typewriter10{
-  animation: typewriter10 0.1s steps(1) 32.5s 1 normal both,
+  animation: typewriter10 0.1s steps(1) 23.9s 1 normal both,
              blinkTextCursor 500ms steps(50) infinite normal;
 }
 @keyframes typewriter1{

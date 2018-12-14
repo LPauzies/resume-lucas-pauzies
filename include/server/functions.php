@@ -42,9 +42,6 @@ function sendMail($from,$to,$topic,$body,$passage_ligne) {
   $message .= "Content-Transfer-Encoding: 8bit".$passage_ligne;
   $message .= $passage_ligne.$body.$passage_ligne;
 
-  echo $header;
-  echo $message;
-
   mail($to,$topic,$message,$header);
 }
 

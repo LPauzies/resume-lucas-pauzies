@@ -27,8 +27,9 @@ function HandleLangURL($language) {
   }
 }
 
-function sendMail($from,$to,$topic,$body,$passage_ligne) {
+function sendMail($from,$to,$topic,$body) {
 
+  $passage_ligne = "\n";
   $boundary = "-----=".md5(rand());
 
   //Header

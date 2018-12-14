@@ -2,7 +2,7 @@
 
 if (isset($_POST['email']) && isset($_POST['topic']) && isset($_POST['textarea'])) {
 
-  sendMail($_POST['email'],"pauziesluc@eisti.eu",$_POST['topic'],$_POST['textarea'],"\n");
+  sendMail($_POST['email'],"contact@cair0n.rf.gd",$_POST['topic'],$_POST['textarea']);
   unset($_POST);
 
 }

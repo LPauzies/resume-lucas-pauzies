@@ -134,7 +134,7 @@ $experiences = Array(
       "description" => Array(
         "Mise à jour et modernisation d’un site web",
         "Implémentation d’outils d’analyses linguistiques pour le département de recherche linguistique",
-        "Mise en production : <a href='http://dictaverf.nsu.ru/'>dictaverf.nsu.ru</a>"
+        "Mise en production : <a target='_blank' href='http://dictaverf.nsu.ru/'>dictaverf.nsu.ru</a>"
       ),
       "technologies" => Array(
         "PHP",

@@ -132,7 +132,7 @@ $experiences = Array(
       "description" => Array(
        "Update and modernization of a PHP website",
        "Implementation of linguistic analysis tools for the linguistic research department",
-       "Hyperlink : <a href='http://dictaverf.nsu.ru/'>dictaverf.nsu.ru</a>"
+       "Hyperlink : <a target='_blank' href='http://dictaverf.nsu.ru/'>dictaverf.nsu.ru</a>"
       ),
       "technologies" => Array(
         "PHP",

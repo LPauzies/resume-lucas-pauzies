@@ -44,7 +44,7 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > screen.height/1.5 || document.documentElement.scrollTop > screen.height/1.5) {
+  if (document.body.scrollTop > screen.height/8 || document.documentElement.scrollTop > screen.height/8) {
     document.getElementById("buttonsticked").style.display = "block";
   } else {
     document.getElementById("buttonsticked").style.display = "none";

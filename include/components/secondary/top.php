@@ -76,14 +76,14 @@ if (isset($_POST['email']) && isset($_POST['topic']) && isset($_POST['textarea']
     <div class="container">
       <div class="row">
         <div id="titleTop" class="col s12 center-align animated fadeInRight">
-          <h3>Lucas "Cair0n" Pauzies</h3>
-          <h5 class="it">"<?php echo $top['desc']; ?>"</h5>
+          <h4>Lucas "Cair0n" Pauzies</h4>
+          <h6 class="it">"<?php echo $top['desc']; ?>"</h6>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="content_screen" class="container" hidden="hidden">
+  <div id="content_screen" class="container">
     <div class="row">
       <div class="col xl1 l1 m1 s1">
       </div>

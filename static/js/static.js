@@ -1,6 +1,7 @@
 $(document).ready(function () {
   /* On ready document, do stuff */
-  displayAnimationScreen();
+  displayDevice("content_screen","content_device");
+  displayDevice("education_screen","education_device");
   $('.modal').modal();
   $('textarea#textarea').characterCounter();
 });
@@ -63,15 +64,16 @@ function changeLogo(path_img,el) {
   }, 200);
 }
 
-function displayAnimationScreen() {
+function isDevice() {
   var width = window.screen.width;
   var height = window.screen.height;
-  console.log(width);
-  console.log(height);
-  if (width < 800 && height < 1200) {
+  return (width < 800 && height < 1200);
+}
+
+function displayDevice(screen_,device_) {
+  if (isDevice()) {
     //IPAD and less
-    $('#content_device').show();
-  } else {
-    $('#content_screen').show();
+    $('#'+screen_).hide();
+    $('#'+device_).show();
   }
 }
